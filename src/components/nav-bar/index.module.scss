@@ -1,0 +1,12 @@
+@import "styles/variables/colors.scss";
+
+.navbar_wrapp {
+    background: transparent;
+    padding-top: 30px;
+    padding-inline: 1%;
+}
+
+.navbar_item {
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}

@@ -1,0 +1,90 @@
+@import 'styles/variables/colors.scss';
+
+.fly_modal {
+    width: 100% !important;
+    height: 100%;
+    padding-inline: 15%;
+    transform: rotateX(0) scale(1) translateY(0); 
+}
+
+.fly_background {
+    background: none;
+    backdrop-filter: blur(6px);
+    padding-top: 5%;
+    padding-inline: 5%;
+}
+
+.fly_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $hf_white;
+    border-radius: 50px 50px 0px 0px;
+    padding-top: 5%;
+    padding-inline: 5.5%;
+}
+
+
+
+.fly_header_logo {
+    height: 69px;
+    width: 161px;
+}
+
+
+.fly_body {
+    background: $hf_white;
+    border-radius: 0px 0px 50px 50px;
+    padding-top: 15px;
+    overflow: initial;
+    position: relative;
+    display: flex;
+}
+
+.fly_rocket {
+    position: absolute;
+    right: -170px;
+    top: 25%;
+}
+
+
+
+.fly_content {
+    background-image: url('../../assets/bg.png');
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    margin-inline: 6%;
+    padding: 40px;
+    padding-left: 60px;
+    filter: drop-shadow(0px 4px 75px rgba(0, 0, 0, 0.25));
+    height: 93%;
+    width: 78%;
+}
+
+.fly_text h2 {
+    font-size: 55px;
+    font-weight: 700;
+    color: $black;
+    line-height: 73px;
+}
+
+.fly_text p {
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 20px;
+    width: 65%;
+}
+
+.fly_univ {
+    padding-top: 110px;
+}
+
+.fly_univ img {
+    width: 20%;
+}
+
+.fly_card_img {
+    width: 14%;
+    margin-top: 33%;
+    margin-left: -100px;
+}

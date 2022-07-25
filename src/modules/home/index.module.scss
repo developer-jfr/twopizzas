@@ -1,0 +1,31 @@
+@import "styles/variables/colors.scss";
+
+.landing_wrapp {
+    background-image: url('./../../assets/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content_wrapp {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5%;
+    padding-bottom: 50px;
+}
+
+.buttons_wrapp {
+    display: flex;
+    gap: 55px;
+    padding-top: 50px;
+}
+
+.buttons_wrapp img {
+    width: 40%;
+}
+
+.landing_title {
+    font-size: 20px;
+    color: $black;
+    line-height: 34px;
+}
