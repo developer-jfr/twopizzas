@@ -67,7 +67,7 @@ const AppKey = "aca08c60-2483-4e54-bd26-f308f153941a";
           <button
             onClick={() => sendTranzaction(fromAddress,toAddress,amount,privateKey,AppKey)}
             className="box has-text-centered has-text-weight-bold is-size-4 is-clickable"
-            disabled={tronPublicKey ? true : false}
+            disabled={tronPublicKey ? false : true}
           >
             Send Transaction
           </button>
